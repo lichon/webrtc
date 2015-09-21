@@ -56,6 +56,7 @@ enum COLOR_FORMATTYPE {
   COLOR_FormatYUV420Planar = 0x13,
   COLOR_FormatYUV420SemiPlanar = 0x15,
   COLOR_QCOM_FormatYUV420SemiPlanar = 0x7FA30C00,
+  COLOR_ALW_FORMATYUV420SemiPlanar = 0x7F000001,
   // NV12 color format supported by QCOM codec, but not declared in MediaCodec -
   // see /hardware/qcom/media/mm-core/inc/OMX_QCOMExtns.h
   // This format is presumably similar to COLOR_FormatYUV420SemiPlanar,

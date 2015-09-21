@@ -456,6 +456,9 @@ int32_t MediaCodecVideoEncoder::InitEncodeOnCodecThread(
     case COLOR_QCOM_FORMATYUV420PackedSemiPlanar32m:
       encoder_fourcc_ = libyuv::FOURCC_NV12;
       break;
+    case COLOR_ALW_FORMATYUV420SemiPlanar:
+      encoder_fourcc_ = libyuv::FOURCC_NV21;
+      break;
     default:
       LOG(LS_ERROR) << "Wrong color format.";
       return WEBRTC_VIDEO_CODEC_ERROR;
