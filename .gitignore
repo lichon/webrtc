@@ -1,3 +1,4 @@
+/out_*
 *.DS_Store
 *.Makefile
 *.host.mk
@@ -39,6 +40,7 @@
 /build
 /buildtools
 /chromium/.gclient.tmp
+/chromium/.gclient_entries
 /chromium/.gclient.tmp_entries
 /chromium/.last_sync_chromium
 /chromium/_bad_scm
